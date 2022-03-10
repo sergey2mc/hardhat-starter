@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-starter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "yarn blockchain",
+    "compile": "yarn blockchain compile",
+    "test": "yarn blockchain test",
+    "deploy:rinkeby": "yarn blockchain deploy:rinkeby",
+    "verify:rinkeby": "yarn blockchain verify:rinkeby",
+    "blockchain": "yarn --cwd blockchain"
+  }
+}
