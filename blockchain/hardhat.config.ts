@@ -1,6 +1,7 @@
 import { HardhatUserConfig } from 'hardhat/types';
 import '@nomiclabs/hardhat-ethers';
 import '@nomiclabs/hardhat-waffle';
+import '@nomiclabs/hardhat-solhint';
 import '@nomiclabs/hardhat-etherscan';
 
 require('dotenv').config({ path: '../.env' });

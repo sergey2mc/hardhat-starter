@@ -6,6 +6,7 @@
     "preinstall": "yarn blockchain",
     "compile": "yarn blockchain compile",
     "test": "yarn blockchain test",
+    "lint": "yarn blockchain lint",
     "deploy:rinkeby": "yarn blockchain deploy:rinkeby",
     "verify:rinkeby": "yarn blockchain verify:rinkeby",
     "blockchain": "yarn --cwd blockchain"

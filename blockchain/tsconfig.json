@@ -7,10 +7,10 @@
     "outDir": "dist"
   },
   "include": [
-    "./blockchain/scripts",
+    "./scripts",
     "./blockchain/test"
   ],
   "files": [
-    "./blockchain/hardhat.config.ts"
+    "./hardhat.config.ts"
   ]
 }
