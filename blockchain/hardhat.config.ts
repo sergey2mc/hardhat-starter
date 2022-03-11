@@ -3,6 +3,7 @@ import '@nomiclabs/hardhat-ethers';
 import '@nomiclabs/hardhat-waffle';
 import '@nomiclabs/hardhat-solhint';
 import '@nomiclabs/hardhat-etherscan';
+import 'hardhat-gas-reporter';
 
 require('dotenv').config({ path: '../.env' });
 
@@ -36,6 +37,11 @@ const config: Config = {
     apiKey: {
       rinkeby: process.env.ETHERSCAN_API_KEY || ''
     }
+  },
+  gasReporter: {
+    enabled: process.env.REPORT_GAS === 'true',
+    currency: 'USD',
+    token: 'ETH',
   }
 };
 
