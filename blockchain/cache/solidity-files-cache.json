@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/2muchcoffee-sy/Documents/projects/hardhat-starter/blockchain/contracts/Token.sol": {
-      "lastModificationDate": 1646925503596,
+      "lastModificationDate": 1646991152169,
       "contentHash": "830e5ecc4a6ee4ec51b683a3b7c95b6b",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {

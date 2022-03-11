@@ -6,6 +6,7 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "lint": "npx hardhat check",
+    "watch": "npx hardhat watch compilation",
     "deploy:rinkeby": "npx hardhat run --network rinkeby scripts/deploy.ts",
     "verify:rinkeby": "npx hardhat verify --network rinkeby --constructor-args scripts/arguments.ts 0x63B4Ed40c547939DA8df54d229199ceB689f9725"
   },
@@ -23,6 +24,7 @@
     "ethers": "^5.6.0",
     "hardhat": "^2.9.1",
     "hardhat-gas-reporter": "^1.0.8",
+    "hardhat-watcher": "^2.1.1",
     "mocha": "^9.2.1",
     "prettier": "^2.5.1",
     "prettier-plugin-solidity": "^1.0.0-beta.19",

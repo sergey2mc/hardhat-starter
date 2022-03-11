@@ -4,6 +4,7 @@ import '@nomiclabs/hardhat-waffle';
 import '@nomiclabs/hardhat-solhint';
 import '@nomiclabs/hardhat-etherscan';
 import 'hardhat-gas-reporter';
+import 'hardhat-watcher';
 
 require('dotenv').config({ path: '../.env' });
 
@@ -41,8 +42,15 @@ const config: Config = {
   gasReporter: {
     enabled: process.env.REPORT_GAS === 'true',
     currency: 'USD',
-    token: 'ETH',
-  }
+    token: 'ETH'
+  },
+  watcher: {
+    compilation: {
+      tasks: ['compile'],
+      files: ['./contracts'],
+      verbose: true
+    }
+  },
 };
 
 export default config;
