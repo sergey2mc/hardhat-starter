@@ -4,12 +4,12 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "yarn blockchain",
-    "compile": "yarn blockchain compile",
-    "test": "yarn blockchain test",
-    "lint": "yarn blockchain lint",
-    "watch": "yarn blockchain watch",
-    "deploy:rinkeby": "yarn blockchain deploy:rinkeby",
-    "verify:rinkeby": "yarn blockchain verify:rinkeby",
+    "hardhat:compile": "yarn blockchain compile",
+    "hardhat:test": "yarn blockchain test",
+    "hardhat:lint": "yarn blockchain lint",
+    "hardhat:watch": "yarn blockchain watch",
+    "hardhat:deploy:rinkeby": "yarn blockchain deploy:rinkeby",
+    "hardhat:verify:rinkeby": "yarn blockchain verify:rinkeby",
     "blockchain": "yarn --cwd blockchain"
   }
 }
